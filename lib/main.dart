@@ -79,7 +79,7 @@ class _MyHomeState extends State<MyHome> {
                 onChanged: (value) {
                   setState(() {
                     val = value;
-                    text =sliderValueWeight /(sliderValueHeight*sliderValueHeight) ;
+                 
                   });
                 },
                 activeColor: Colors.green,
@@ -99,7 +99,7 @@ class _MyHomeState extends State<MyHome> {
                   ;},
                 activeColor: Colors.pink,
 
-                toggleable: true,
+               // toggleable: true,
               ) ,
             ),
 
