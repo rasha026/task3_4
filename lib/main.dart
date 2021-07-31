@@ -46,7 +46,7 @@ class _MyHomeState extends State<MyHome> {
               value: sliderValueHeight,
               min: 0,
               max: 300,
-              divisions: 5,
+              divisions: 300,
               label: sliderValueHeight.round().toString(),
               onChanged: (double value) {
                 setState(() {
@@ -61,8 +61,8 @@ class _MyHomeState extends State<MyHome> {
               value:sliderValueWeight,
               min: 0,
               max: 300,
-              divisions: 5,
-            //  label: sliderValueWeight.round().toString(),
+              divisions: 300,
+            label: sliderValueWeight.round().toString(),
               onChanged: (double value) {
                 setState(() {
                   sliderValueWeight = value;
